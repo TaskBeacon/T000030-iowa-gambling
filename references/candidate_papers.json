@@ -1,0 +1,2755 @@
+[
+  {
+    "id": "W2160195521",
+    "title": "An Interoceptive Predictive Coding Model of Conscious Presence",
+    "authors": [
+      "Anil K. Seth",
+      "Keisuke Suzuki",
+      "Hugo Critchley"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00395",
+    "citation_count": 949,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2109668460",
+    "title": "Differential effects of insular and ventromedial prefrontal cortex lesions on risky decision-making",
+    "authors": [
+      "Luke Clark",
+      "Antoine Bechara",
+      "H. Damasio",
+      "Michael R. F. Aitken",
+      "Barbara J. Sahakian",
+      "Trevor W. Robbins"
+    ],
+    "year": 2008,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/awn066",
+    "citation_count": 614,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1969913560",
+    "title": "Activation of Prefrontal Cortex by Transcranial Direct Current Stimulation Reduces Appetite for Risk during Ambiguous Decision Making",
+    "authors": [
+      "S. Fecteau",
+      "A. Pascual\u2013Leone",
+      "David H. Zald",
+      "Paola Liguori",
+      "Hugo Th\u00e9oret",
+      "Paulo S. Boggio",
+      "Felipe Fregni"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0314-07.2007",
+    "citation_count": 443,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2314770590",
+    "title": "Computations of uncertainty mediate acute stress responses in humans",
+    "authors": [
+      "Archy O. de Berker",
+      "Robb B. Rutledge",
+      "Christoph Mathys",
+      "Louise Marshall",
+      "Gemma F. Cross",
+      "Raymond J. Dolan",
+      "Sven Bestmann"
+    ],
+    "year": 2016,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/ncomms10996",
+    "citation_count": 351,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2139166591",
+    "title": "How does interoceptive awareness interact with the subjective experience of emotion? An fMRI Study",
+    "authors": [
+      "Yuri Terasawa",
+      "Hirokata Fukushima",
+      "Satoshi Umeda"
+    ],
+    "year": 2011,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.21458",
+    "citation_count": 228,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2079767332",
+    "title": "Neural correlates of reward processing in schizophrenia \u2014 Relationship to apathy and depression",
+    "authors": [
+      "Joe J. Simon",
+      "Armin Biller",
+      "Stephan Walther",
+      "Daniela Roesch-Ely",
+      "Christoph Stippich",
+      "Matthias Weisbrod",
+      "Stefan Kaiser"
+    ],
+    "year": 2009,
+    "journal": "Schizophrenia Research",
+    "doi_or_url": "https://doi.org/10.1016/j.schres.2009.11.007",
+    "citation_count": 224,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2108913208",
+    "title": "Is deck B a disadvantageous deck in the Iowa Gambling Task?",
+    "authors": [
+      "Ching-Hung Lin",
+      "Yao-Chu Chiu",
+      "Po-Lei Lee",
+      "Jen\u2010Chuen Hsieh"
+    ],
+    "year": 2007,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-3-16",
+    "citation_count": 192,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097908892",
+    "title": "Deciding how to decide: ventromedial frontal lobe damage affects information acquisition in multi-attribute decision making",
+    "authors": [
+      "Lesley K. Fellows"
+    ],
+    "year": 2006,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/awl017",
+    "citation_count": 169,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2002854345",
+    "title": "Pupil dilation signals uncertainty and surprise in a learning gambling task",
+    "authors": [
+      "Claudio Lav\u00edn",
+      "Ren\u00e9 San Mart\u00edn",
+      "Eduardo Rosales Jubal"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2013.00218",
+    "citation_count": 168,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2030249972",
+    "title": "The neuroscience of suicidal behaviors: what can we expect from endophenotype strategies?",
+    "authors": [
+      "P. Courtet",
+      "Irving I. Gottesman",
+      "Fabrice Jollant",
+      "T D Gould"
+    ],
+    "year": 2011,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/tp.2011.6",
+    "citation_count": 147,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042218778",
+    "title": "Of Black Swans and Tossed Coins: Is the Description-Experience Gap in Risky Choice Limited to Rare Events?",
+    "authors": [
+      "Elliot A. Ludvig",
+      "Marcia L. Spetch"
+    ],
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0020262",
+    "citation_count": 139,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2156596642",
+    "title": "Dissociable processes underlying decisions in the Iowa Gambling Task: a new integrative framework",
+    "authors": [
+      "Andrea Stocco",
+      "Danilo Fum",
+      "Antonio Napoli"
+    ],
+    "year": 2009,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-5-1",
+    "citation_count": 138,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2103507497",
+    "title": "Rodent versions of the Iowa gambling task: opportunities and challenges for the understanding of decision-making",
+    "authors": [
+      "Leonie de Visser"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2011.00109",
+    "citation_count": 135,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2205822557",
+    "title": "Think twice: Impulsivity and decision making in obsessive\u2013compulsive disorder",
+    "authors": [
+      "Giacomo Grassi",
+      "Stefano Pallanti",
+      "Lorenzo Righi",
+      "Martijn Figee",
+      "Mariska Mantione",
+      "Damiaan Denys",
+      "Daniele Piccagliani",
+      "Alessandro Rossi",
+      "Paolo Stratta"
+    ],
+    "year": 2015,
+    "journal": "Journal of Behavioral Addictions",
+    "doi_or_url": "https://doi.org/10.1556/2006.4.2015.039",
+    "citation_count": 132,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2137114410",
+    "title": "Risk-Sensitive Decision-Making in Patients with Posterior Parietal and Ventromedial Prefrontal Cortex Injury",
+    "authors": [
+      "Bettina Studer",
+      "Facundo Manes",
+      "Glyn W. Humphreys",
+      "Trevor W. Robbins",
+      "Luke Clark"
+    ],
+    "year": 2013,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bht197",
+    "citation_count": 124,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2109336288",
+    "title": "Computational Models for the Combination of Advice and Individual Learning",
+    "authors": [
+      "Guido Biele",
+      "J\u00f6rg Rieskamp",
+      "Richard Gonzalez"
+    ],
+    "year": 2009,
+    "journal": "Cognitive Science",
+    "doi_or_url": "https://doi.org/10.1111/j.1551-6709.2009.01010.x",
+    "citation_count": 118,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2154563434",
+    "title": "Impaired decision making and feedback evaluation in borderline personality disorder",
+    "authors": [
+      "Beate Schuermann",
+      "Norbert Kathmann",
+      "Christian Stiglmayr",
+      "Babette Renneberg",
+      "Tanja Endra\u00df"
+    ],
+    "year": 2011,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s003329171000262x",
+    "citation_count": 114,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2585385159",
+    "title": "Using Measures of Risk Perception to Predict Information Security Behavior: Insights from Electroencephalography (EEG)",
+    "authors": [
+      "Anthony Vance",
+      "Bonnie Brinton Anderson",
+      "C. Brock Kirwan",
+      "David Eargle"
+    ],
+    "year": 2014,
+    "journal": "Journal of the Association for Information Systems",
+    "doi_or_url": "https://doi.org/10.17705/1jais.00375",
+    "citation_count": 114,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1980211364",
+    "title": "Right Ventromedial and Dorsolateral Prefrontal Cortices Mediate Adaptive Decisions under Ambiguity by Integrating Choice Utility and Outcome Evaluation",
+    "authors": [
+      "Anastasia Christakou",
+      "Mick Brammer",
+      "Vincent Giampietro",
+      "Katya Rubia"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1279-09.2009",
+    "citation_count": 113,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2167032781",
+    "title": "Immediate gain is long-term loss: Are there foresighted decision makers in the Iowa Gambling Task?",
+    "authors": [
+      "Yao-Chu Chiu",
+      "Ching-Hung Lin",
+      "Jong-Tsun Huang",
+      "Shuyeu Lin",
+      "Po-Lei Lee",
+      "Jen\u2010Chuen Hsieh"
+    ],
+    "year": 2008,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-4-13",
+    "citation_count": 107,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2056975373",
+    "title": "Diffusion Tensor Imaging and Decision Making in Cocaine Dependence",
+    "authors": [
+      "Scott D. Lane",
+      "Joel L. Steinberg",
+      "Liangsuo Ma",
+      "Khader M. Hasan",
+      "Larry A. Kramer",
+      "Edward Z\u00fa\u00f1iga",
+      "Ponnada A. Narayana",
+      "F. Gerard Moeller"
+    ],
+    "year": 2010,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0011591",
+    "citation_count": 105,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110762050",
+    "title": "The Neural Basis of Decision-Making and Reward Processing in Adults with Euthymic Bipolar Disorder or Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "authors": [
+      "Agust\u00edn Ib\u00e1\u00f1ez",
+      "Marcelo Cetkovich",
+      "Agust\u00edn Petroni",
+      "Hugo Urquina",
+      "Sandra B\u00e1ez",
+      "Mar\u00eda Luz Gonz\u00e1lez-Gadea",
+      "Juan E. Kamienkowski",
+      "Teresa Torralva",
+      "Fernando Torrente",
+      "Sergio Strejilevich",
+      "Julia Teitelbaum",
+      "Esteban Hurtado"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0037306",
+    "citation_count": 101,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2889120735",
+    "title": "Risk-Taking and Impulsivity: The Role of Mood States and Interoception",
+    "authors": [
+      "Aleksandra M. Herman",
+      "Hugo Critchley",
+      "Theodora Duka"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2018.01625",
+    "citation_count": 101,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2054875698",
+    "title": "The Feeling of Action Tendencies: On the Emotional Regulation of Goal-Directed Behavior",
+    "authors": [
+      "Robert Lowe",
+      "Tom Ziemke"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00346",
+    "citation_count": 91,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2024072605",
+    "title": "Poor Decision Making Among Older Adults Is Related to Elevated Levels of Neuroticism",
+    "authors": [
+      "Natalie L. Denburg",
+      "Joshua A. Weller",
+      "Torricia H. Yamada",
+      "Daniel Shivapour",
+      "Allison R. Kaup",
+      "A. LaLoggia",
+      "Catherine Cole",
+      "Daniel Tranel",
+      "Antoine Bechara"
+    ],
+    "year": 2009,
+    "journal": "Annals of Behavioral Medicine",
+    "doi_or_url": "https://doi.org/10.1007/s12160-009-9094-7",
+    "citation_count": 81,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2282066275",
+    "title": "Personality, Executive Control, and Neurobiological Characteristics Associated with Different Forms of Risky Driving",
+    "authors": [
+      "Thomas G. Brown",
+      "Marie Claude Ouimet",
+      "Manal Eldeb",
+      "Jacques Tremblay",
+      "Evelyn Vingilis",
+      "Louise Nadeau",
+      "Jens C. Pruessner",
+      "Antoine Bechara"
+    ],
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0150227",
+    "citation_count": 80,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2991747952",
+    "title": "Computational Markers of Risky Decision-making for Identification of Temporal Windows of Vulnerability to Opioid Use in a Real-world Clinical Setting",
+    "authors": [
+      "Anna B. Konova",
+      "Silvia L\u00f3pez-Guzm\u00e1n",
+      "Adelya Urmanche",
+      "Stephen Ross",
+      "Kenway Louie",
+      "John Rotrosen",
+      "Paul W. Glimcher"
+    ],
+    "year": 2019,
+    "journal": "JAMA Psychiatry",
+    "doi_or_url": "https://doi.org/10.1001/jamapsychiatry.2019.4013",
+    "citation_count": 77,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2133268057",
+    "title": "Neural correlates of uncertain decision making: ERP evidence from the Iowa Gambling Task",
+    "authors": [
+      "Ji\u2010fang Cui",
+      "Yinghe Chen",
+      "Ya Wang",
+      "David Shum",
+      "Raymond C. K. Chan"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00776",
+    "citation_count": 76,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2078712289",
+    "title": "Decision making in healthy participants on the Iowa Gambling Task: new insights from an operant approach",
+    "authors": [
+      "Peter Bull",
+      "Lynette J. Tippett",
+      "Donna Rose Addis"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.00391",
+    "citation_count": 75,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2113823311",
+    "title": "Brain maps of Iowa gambling task",
+    "authors": [
+      "Ching-Hung Lin",
+      "Yao Chu Chiu",
+      "Chou Ming Cheng",
+      "Jen\u2010Chuen Hsieh"
+    ],
+    "year": 2008,
+    "journal": "BMC Neuroscience",
+    "doi_or_url": "https://doi.org/10.1186/1471-2202-9-72",
+    "citation_count": 75,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2150636159",
+    "title": "Risky Decision Making in Substance Dependent Adolescents with a Disruptive Behavior Disorder",
+    "authors": [
+      "Dennis J.L.G. Schutter",
+      "I. van Bokhoven",
+      "Louk J. M. J. Vanderschuren",
+      "John E. Lochman",
+      "Walter Matthys"
+    ],
+    "year": 2010,
+    "journal": "Journal of Abnormal Child Psychology",
+    "doi_or_url": "https://doi.org/10.1007/s10802-010-9475-1",
+    "citation_count": 74,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2098792342",
+    "title": "A Neuropsychological Approach to Understanding Risk-Taking for Potential Gains and Losses",
+    "authors": [
+      "Irwin P. Levin",
+      "Gui Xue",
+      "Joshua A. Weller",
+      "Martin Reimann",
+      "Marco Lauriola",
+      "Antoine Bechara"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2012.00015",
+    "citation_count": 73,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992620239",
+    "title": "Place your bets: psychophysiological correlates of decision-making under risk",
+    "authors": [
+      "Bettina Studer",
+      "Luke Clark"
+    ],
+    "year": 2011,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-011-0025-2",
+    "citation_count": 70,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2056412909",
+    "title": "Cognition and emotional decision-making in chronic low back pain: an ERPs study during Iowa gambling task",
+    "authors": [
+      "Stefano Tamburin",
+      "Alice Maier",
+      "Sami Schiff",
+      "Matteo F. Lauriola",
+      "Elisa Di Rosa",
+      "Giampietro Zanette",
+      "Daniela Mapelli"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.01350",
+    "citation_count": 68,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2016788948",
+    "title": "Effects of Chronic Marijuana Use on Brain Activity During Monetary Decision-Making",
+    "authors": [
+      "Jatin G. Vaidya",
+      "Robert I. Block",
+      "Daniel S. O\u02bcLeary",
+      "Laura L. Boles Ponto",
+      "Mohammed M. Ghoneim",
+      "Antoine Bechara"
+    ],
+    "year": 2011,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2011.227",
+    "citation_count": 65,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4233290182",
+    "title": "Is deck C an advantageous deck in the Iowa Gambling Task?",
+    "authors": [
+      "Yao-Chu Chiu",
+      "Ching-Hung Lin"
+    ],
+    "year": 2007,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-3-37",
+    "citation_count": 65,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3132116028",
+    "title": "Heart Rate Variability and Decision-Making: Autonomic Responses in Making Decisions",
+    "authors": [
+      "Giuseppe Forte",
+      "Matteo Morelli",
+      "Maria Casagrande"
+    ],
+    "year": 2021,
+    "journal": "Brain Sciences",
+    "doi_or_url": "https://doi.org/10.3390/brainsci11020243",
+    "citation_count": 61,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2143833657",
+    "title": "Iowa Gambling Task: there is more to consider than long-term outcome. Using a linear equation model to disentangle the impact of outcome and frequency of gains and losses",
+    "authors": [
+      "Annette Horstmann"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2012.00061",
+    "citation_count": 60,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2015018618",
+    "title": "Among three different executive functions, general executive control ability is a key predictor of decision making under objective risk",
+    "authors": [
+      "Johannes Schiebener",
+      "Elisa Wegmann",
+      "Bettina Gathmann",
+      "Christian Laier",
+      "Mirko Pawlikowski",
+      "Matthias Brand"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.01386",
+    "citation_count": 59,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2126142442",
+    "title": "The cortical processing of facial emotional expression is associated with social cognition skills and executive functioning: A preliminary study",
+    "authors": [
+      "Agust\u00edn Petroni",
+      "Andr\u00e9s Canales\u2010Johnson",
+      "Hugo Urquina",
+      "Rapha\u00ebl Guex",
+      "Esteban Hurtado",
+      "Alejandro O. Blenkmann",
+      "Nicol\u00e1s von Ellenrieder",
+      "Facundo Manes",
+      "Mariano Sigman",
+      "Agust\u00edn Ib\u00e1\u00f1ez"
+    ],
+    "year": 2011,
+    "journal": "Neuroscience Letters",
+    "doi_or_url": "https://doi.org/10.1016/j.neulet.2011.09.062",
+    "citation_count": 58,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2056160062",
+    "title": "The Impact of Dopamine on Aggression: An [<sup>18</sup>F]-FDOPA PET Study in Healthy Males",
+    "authors": [
+      "Thorben Schl\u00fcter",
+      "Oliver Winz",
+      "Karsten Henkel",
+      "Susanne Prinz",
+      "Lena Rademacher",
+      "J\u00f6rn Schmaljohann",
+      "Kai Dautzenberg",
+      "Paul Cumming",
+      "Yoshitaka Kumakura",
+      "Steffen Rex",
+      "Felix M. Mottaghy",
+      "Gerhard Gr\u00fcnder"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1398-13.2013",
+    "citation_count": 57,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2165879654",
+    "title": "Reexamining the Validity and Reliability of the Clinical Version of the Iowa Gambling Task: Evidence from a Normal Subject Group",
+    "authors": [
+      "Ching-Hung Lin",
+      "Tzu-Jiun Song",
+      "Yingying Chen",
+      "We-Kang Lee",
+      "Yao-Chu Chiu"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00220",
+    "citation_count": 57,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2992512908",
+    "title": "The Relation Between Preference for Predictability and Autistic Traits",
+    "authors": [
+      "Judith Goris",
+      "Marcel Bra\u00df",
+      "Charlotte Cambier",
+      "Jeroen Delplanque",
+      "Jan R. Wiersema",
+      "Senne Braem"
+    ],
+    "year": 2019,
+    "journal": "Autism Research",
+    "doi_or_url": "https://doi.org/10.1002/aur.2244",
+    "citation_count": 57,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2892420021",
+    "title": "Performance Under Stress: An Eye-Tracking Investigation of the Iowa Gambling Task (IGT)",
+    "authors": [
+      "Boban Simonovic",
+      "Edward J. N. Stupple",
+      "Maggie Gale",
+      "David Sheffield"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2018.00217",
+    "citation_count": 57,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1967294848",
+    "title": "The detrimental effects of emotional process dysregulation on decision-making in substance dependence",
+    "authors": [
+      "Anna Murphy",
+      "Eleanor Taylor",
+      "Rebecca Elliott"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Integrative Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnint.2012.00101",
+    "citation_count": 56,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2145293615",
+    "title": "Predicting Risk-Taking Behavior from Prefrontal Resting-State Activity and Personality",
+    "authors": [
+      "Bettina Studer",
+      "Andreas Pedroni",
+      "J\u00f6rg Rieskamp"
+    ],
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0076861",
+    "citation_count": 55,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2102815257",
+    "title": "Always Gamble on an Empty Stomach: Hunger Is Associated with Advantageous Decision Making",
+    "authors": [
+      "Denise de Ridder",
+      "Floor M. Kroese",
+      "Marieke A. Adriaanse",
+      "Catharine Evers"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0111081",
+    "citation_count": 54,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2060888879",
+    "title": "Adolescents\u2019 risky decision-making activates neural networks related to social cognition and cognitive control processes",
+    "authors": [
+      "Mar\u00eda Jos\u00e9 Rodrigo L\u00f3pez",
+      "Iv\u00e1n Padr\u00f3n",
+      "Manuel de Vega",
+      "Evelyn C. Ferstl"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2014.00060",
+    "citation_count": 53,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2586789638",
+    "title": "The effect of acute pain on risky and intertemporal choice",
+    "authors": [
+      "Lina Koppel",
+      "David Andersson",
+      "India Morrison",
+      "Kinga Posadzy",
+      "Daniel V\u00e4stfj\u00e4ll",
+      "Gustav Tingh\u00f6g"
+    ],
+    "year": 2017,
+    "journal": "Experimental Economics",
+    "doi_or_url": "https://doi.org/10.1007/s10683-017-9515-6",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2160153865",
+    "title": "COMT Val158Met polymorphism interacts with stressful life events and parental warmth to influence decision making",
+    "authors": [
+      "Qinghua He",
+      "Gui Xue",
+      "Chuansheng Chen",
+      "Zhong\u2010Lin Lu",
+      "Chunhui Chen",
+      "Xuemei Lei",
+      "Yuyun Liu",
+      "Jin Li",
+      "Bi Zhu",
+      "Robert K. Moyzis",
+      "Qi Dong",
+      "Antoine Bechara"
+    ],
+    "year": 2012,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/srep00677",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1971209104",
+    "title": "Affective guidance in the Iowa gambling task",
+    "authors": [
+      "Brandon Wagar",
+      "Michael J. Dixon"
+    ],
+    "year": 2006,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.6.4.277",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2172111970",
+    "title": "Subtyping patients with heroin addiction at treatment entry: factor derived from the Self-Report Symptom Inventory (SCL-90)",
+    "authors": [
+      "Icro Maremmani",
+      "P. Pani",
+      "Matteo Pacini",
+      "Jacopo V. Bizzarri",
+      "Emanuela Trogu",
+      "Angelo Giovanni Icro Maremmani",
+      "Gilberto Gerra",
+      "Giulio Perugi",
+      "Liliana Dell\u2019Osso"
+    ],
+    "year": 2010,
+    "journal": "Annals of General Psychiatry",
+    "doi_or_url": "https://doi.org/10.1186/1744-859x-9-15",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1968745229",
+    "title": "Affective Decision-Making and Tactical Behavior of Under-15 Soccer Players",
+    "authors": [
+      "Adeilton dos Santos Gonzaga",
+      "Maicon Rodrigues Albuquerque",
+      "Leandro Fernandes Malloy\u2010Diniz",
+      "Pablo Juan Greco",
+      "Israel Teoldo"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0101231",
+    "citation_count": 51,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3137665104",
+    "title": "Mental Capacity, Decision-Making and Emotion Dysregulation in Severe Enduring Anorexia Nervosa",
+    "authors": [
+      "Annemarie van Elburg",
+      "Unna N. Danner",
+      "Lot Sternheim",
+      "M. W. Lammers",
+      "Isis F.F.M. Elzakkers"
+    ],
+    "year": 2021,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2021.545317",
+    "citation_count": 51,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1999410558",
+    "title": "High-frequency oscillations in distributed neural networks reveal the dynamics of human decision making",
+    "authors": [
+      "Adrian G. Guggisberg"
+    ],
+    "year": 2008,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/neuro.09.014.2007",
+    "citation_count": 47,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1979020964",
+    "title": "Enhanced cardiac perception predicts impaired performance in the Iowa Gambling Task in patients with panic disorder",
+    "authors": [
+      "Julian W\u00f6lk",
+      "Stefan S\u00fctterlin",
+      "Stefan Koch",
+      "Claus V\u00f6gele",
+      "Stefan M. Schulz"
+    ],
+    "year": 2014,
+    "journal": "Brain and Behavior",
+    "doi_or_url": "https://doi.org/10.1002/brb3.206",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2095881822",
+    "title": "Investigating the Role of the Ventromedial Prefrontal Cortex in the Assessment of Brands",
+    "authors": [
+      "Jos\u00e9 Paulo Marques dos Santos",
+      "Daniela Seixas",
+      "Sofia Brand\u00e3o",
+      "Luiz Moutinho"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2011.00077",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2152195741",
+    "title": "A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning",
+    "authors": [
+      "Helen Steingroever",
+      "Ruud Wetzels",
+      "Eric\u2010Jan Wagenmakers"
+    ],
+    "year": 2013,
+    "journal": "The Journal of Problem Solving",
+    "doi_or_url": "https://doi.org/10.7771/1932-6246.1150",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3173178967",
+    "title": "Frontopolar theta oscillations link metacognition with prospective decision making",
+    "authors": [
+      "Alexander Soutschek",
+      "Marius Moisa",
+      "Christian C. Ruff",
+      "Philippe N. Tobler"
+    ],
+    "year": 2021,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-021-24197-3",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2145923792",
+    "title": "Dopamine, depressive symptoms, and decision-making: the relationship between spontaneous eye blink rate and depressive symptoms predicts Iowa Gambling Task performance",
+    "authors": [
+      "Kaileigh A. Byrne",
+      "Dominique Norris",
+      "Darrell A. Worthy"
+    ],
+    "year": 2015,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-015-0377-0",
+    "citation_count": 43,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1969707818",
+    "title": "Insula and Striatum Mediate the Default Bias",
+    "authors": [
+      "Rongjun Yu",
+      "Dean Mobbs",
+      "Ben Seymour",
+      "Andrew J. Calder"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3772-10.2010",
+    "citation_count": 43,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2090214964",
+    "title": "Differences in time course activation of dorsolateral prefrontal cortex associated with low or high risk choices in a gambling task",
+    "authors": [
+      "Stefano Bembich",
+      "Andrea Clarici",
+      "Cristina Vecchiet",
+      "Giulio Baldassi",
+      "Gabriele Cont",
+      "Sergio Demarini"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2014.00464",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2167219294",
+    "title": "Gain-loss frequency and final outcome in the Soochow Gambling Task: A Reassessment",
+    "authors": [
+      "Ching-Hung Lin",
+      "Yao-Chu Chiu",
+      "Jong-Tsun Huang"
+    ],
+    "year": 2009,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-5-45",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2101218309",
+    "title": "Cortical regions activated by the subjective sense of perceptual coherence of environmental sounds: A proposal for a neuroscience of intuition",
+    "authors": [
+      "Kirsten G. Volz",
+      "Rudolf R\u00fcbsamen",
+      "D. Yves von Cramon"
+    ],
+    "year": 2008,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.8.3.318",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2922272875",
+    "title": "Emotion and reasoning in human decision-making",
+    "authors": [
+      "Edmund T. Rolls"
+    ],
+    "year": 2019,
+    "journal": "Economics",
+    "doi_or_url": "https://doi.org/10.5018/economics-ejournal.ja.2019-39",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2777067670",
+    "title": "Interactive effects of music and prefrontal cortex stimulation in modulating response inhibition",
+    "authors": [
+      "Farshad A. Mansouri",
+      "Nicola Acevedo",
+      "Rosin Illipparampil",
+      "Daniel J. Fehring",
+      "Paul B. Fitzgerald",
+      "Shapour Jaberzadeh"
+    ],
+    "year": 2017,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-017-18119-x",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2525890410",
+    "title": "Decision Making Impairment: A Shared Vulnerability in Obesity, Gambling Disorder and Substance Use Disorders?",
+    "authors": [
+      "N\u00faria Mallorqu\u00ed\u2010Bagu\u00e9",
+      "Ana B. Fagundo",
+      "Susana Jim\u00e9nez\u2010M\u00farcia",
+      "Rafael de la Torre",
+      "Rosa Ba\u00f1os",
+      "Cristina Botella",
+      "Felipe F. Casanueva",
+      "Ana B. Crujeiras",
+      "Jos\u00e9 Carlos Fern\u00e1ndez\u2010Garc\u00eda",
+      "Jos\u00e9 Manuel Fern\u00e1ndez\u2010Real",
+      "Gema Fr\u00fchbeck",
+      "Roser Granero"
+    ],
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0163901",
+    "citation_count": 41,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4225665748",
+    "title": "How distinct functional insular subdivisions mediate interacting neurocognitive systems",
+    "authors": [
+      "Haichao Zhao",
+      "Ofir Turel",
+      "Antoine Bechara",
+      "Qinghua He"
+    ],
+    "year": 2022,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhac169",
+    "citation_count": 41,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2623922206",
+    "title": "Resting-state theta/beta EEG ratio is associated with reward- and punishment-related reversal learning",
+    "authors": [
+      "Iris Schutte",
+      "J. Leon Kenemans",
+      "Dennis J.L.G. Schutter"
+    ],
+    "year": 2017,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-017-0510-3",
+    "citation_count": 41,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2152594335",
+    "title": "Brain regions involved in the learning and application of reward rules in a two-deck gambling task",
+    "authors": [
+      "Egbert Hartstra",
+      "J.F.E. Oldenburg",
+      "Linda Van Leijenhorst",
+      "Serge A.R.B. Rombouts",
+      "Eveline A. Crone"
+    ],
+    "year": 2010,
+    "journal": "Neuropsychologia",
+    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2010.01.012",
+    "citation_count": 41,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2911152230",
+    "title": "Prior Exposure to Salient Win-Paired Cues in a Rat Gambling Task Increases Sensitivity to Cocaine Self-Administration and Suppresses Dopamine Efflux in Nucleus Accumbens: Support for the Reward Deficiency Hypothesis of Addiction",
+    "authors": [
+      "Jacqueline\u2010Marie N. Ferland",
+      "Tristan Hynes",
+      "Celine Hounjet",
+      "David Lindenbach",
+      "Cole Vonder Haar",
+      "Wendy K. Adams",
+      "Anthony G. Phillips",
+      "Catharine A. Winstanley"
+    ],
+    "year": 2019,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3477-17.2018",
+    "citation_count": 40,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2083550151",
+    "title": "Working Memory in the Processing of the Iowa Gambling Task: An Individual Differences Approach",
+    "authors": [
+      "Virginie Bagneux",
+      "No\u00e9mylle Thomassin",
+      "Corentin Gonthier",
+      "Jean\u2010Luc Roulin"
+    ],
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0081498",
+    "citation_count": 40,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2950891144",
+    "title": "Sequential exploration in the Iowa gambling task: Validation of a new computational model in a large dataset of young and old healthy participants",
+    "authors": [
+      "Romain Ligneul"
+    ],
+    "year": 2019,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1006989",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2996448406",
+    "title": "Transcranial direct current stimulation (tDCS) over vmPFC modulates interactions between reward and emotion in delay discounting",
+    "authors": [
+      "Aur\u00e9lie L. Manuel",
+      "Nicholas W. G. Murray",
+      "Olivier Piguet"
+    ],
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-019-55157-z",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W296225198",
+    "title": "Trait Anxiety Has Effect on Decision Making under Ambiguity but Not Decision Making under Risk",
+    "authors": [
+      "Long Zhang",
+      "Kai Wang",
+      "Chunyan Zhu",
+      "Fengqiong Yu",
+      "Xingui Chen"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0127189",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2060194751",
+    "title": "Anterior insula activity predicts the influence of positively framed messages on decision making",
+    "authors": [
+      "Adam Krawitz",
+      "Rena Fukunaga",
+      "Joshua W. Brown"
+    ],
+    "year": 2010,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.10.3.392",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2301268618",
+    "title": "Intolerance of Uncertainty: A Temporary Experimental Induction Procedure",
+    "authors": [
+      "Oriana Mosca",
+      "Marco Lauriola",
+      "R. Nicholas Carleton"
+    ],
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0155130",
+    "citation_count": 38,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2747780379",
+    "title": "Modulating the Activity of the DLPFC and OFC Has Distinct Effects on Risk and Ambiguity Decision-Making: A tDCS Study",
+    "authors": [
+      "Xiaolan Yang",
+      "Mei Gao",
+      "Jinchuan Shi",
+      "Hang Ye",
+      "Shu Chen"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2017.01417",
+    "citation_count": 38,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3011854800",
+    "title": "Decision-Making Under Ambiguity or Risk in Individuals With Alzheimer\u2019s Disease and Mild Cognitive Impairment",
+    "authors": [
+      "Tingting Sun",
+      "Teng Xie",
+      "Jing Wang",
+      "Long Zhang",
+      "Yanghua Tian",
+      "Kai Wang",
+      "Xin Yu",
+      "Huali Wang"
+    ],
+    "year": 2020,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2020.00218",
+    "citation_count": 37,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2040665381",
+    "title": "The impact of frontal and cerebellar lesions on decision making: evidence from the Iowa Gambling Task",
+    "authors": [
+      "Caroline de Oliveira Cardoso",
+      "Laura Damiani Branco",
+      "Charles Cotrena",
+      "Christian Haag Kristensen",
+      "Daniela Di Giorge Schneider Bakos",
+      "R\u00f3chele Paz Fonseca"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2014.00061",
+    "citation_count": 36,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1552026802",
+    "title": "Motor planning under temporal uncertainty is suboptimal when the gain function is asymmetric",
+    "authors": [
+      "Keiji Ota",
+      "Masahiro Shinya",
+      "Kazutoshi Kudo"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Computational Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fncom.2015.00088",
+    "citation_count": 35,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2104293720",
+    "title": "Individual preferences modulate incentive values: Evidence from functional MRI",
+    "authors": [
+      "Susan Koeneke",
+      "Andreas Pedroni",
+      "Anja Dieckmann",
+      "Volker Bosch",
+      "Lutz J\u00e4ncke"
+    ],
+    "year": 2008,
+    "journal": "Behavioral and Brain Functions",
+    "doi_or_url": "https://doi.org/10.1186/1744-9081-4-55",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2004477854",
+    "title": "Decisional impairments in cocaine addiction, reward bias, and cortical oscillation &amp;ldquo;unbalance&amp;rdquo;",
+    "authors": [
+      "Michela Balconi",
+      "Roberta Finocchiaro"
+    ],
+    "year": 2015,
+    "journal": "Neuropsychiatric Disease and Treatment",
+    "doi_or_url": "https://doi.org/10.2147/ndt.s79696",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4200136455",
+    "title": "Role of Gender-Based Emotional Intelligence in Corporate Financial Decision-Making",
+    "authors": [
+      "Zou Ran",
+      "Azeem Gul",
+      "Ahsan Akbar",
+      "Syed Arslan Haider",
+      "Asma Zeeshan",
+      "Minhas Akbar"
+    ],
+    "year": 2021,
+    "journal": "Psychology Research and Behavior Management",
+    "doi_or_url": "https://doi.org/10.2147/prbm.s335022",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1994727419",
+    "title": "Seeing the forest through the trees: improving decision making on the Iowa gambling task by shifting focus from short- to long-term outcomes",
+    "authors": [
+      "Melissa T. Buelow",
+      "Bradley M. Okdie",
+      "Amber L. Blaine"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00773",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1521332763",
+    "title": "Differential Involvement of the Agranular vs Granular Insular Cortex in the Acquisition and Performance of Choice Behavior in a Rodent Gambling Task",
+    "authors": [
+      "Abhiram Pushparaj",
+      "Aaron S. Kim",
+      "Martin Musiol",
+      "Abraham Zangen",
+      "Zafiris J. Daskalakis",
+      "Martin Zack",
+      "Catharine A. Winstanley",
+      "Bernard Le Foll"
+    ],
+    "year": 2015,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2015.133",
+    "citation_count": 32,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1976960129",
+    "title": "The Gambler\u2019s Fallacy Is Associated with Weak Affective Decision Making but Strong Cognitive Ability",
+    "authors": [
+      "Gui Xue",
+      "Qinghua He",
+      "Xuemei Lei",
+      "Chunhui Chen",
+      "Yuyun Liu",
+      "Chuansheng Chen",
+      "Zhong\u2010Lin Lu",
+      "Qi Dong",
+      "Antoine Bechara"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0047019",
+    "citation_count": 31,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2044835977",
+    "title": "Avoidant decision making in social anxiety: the interaction of angry faces and emotional responses",
+    "authors": [
+      "Andre Pittig",
+      "Mirko Pawlikowski",
+      "Michelle G. Craske",
+      "Georg W. Alpers"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.01050",
+    "citation_count": 31,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2028748030",
+    "title": "Sensitivity towards Fear of Electric Shock in Passive Threat Situations",
+    "authors": [
+      "Patrick Ring",
+      "Christian Kaernbach"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0120989",
+    "citation_count": 31,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3092568172",
+    "title": "Burst Beliefs \u2013 Methodological Problems in the Balloon Analogue Risk Task and Implications for Its Use",
+    "authors": [
+      "Kristel De Groot"
+    ],
+    "year": 2020,
+    "journal": "Journal of Trial and Error",
+    "doi_or_url": "https://doi.org/10.36850/mr1",
+    "citation_count": 31,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4291396297",
+    "title": "Positive symptoms of schizophrenia and their relationship with cognitive and emotional executive functions",
+    "authors": [
+      "Pamela Ruiz-Casta\u00f1eda",
+      "Encarnaci\u00f3n Santiago Molina",
+      "Haney Aguirre-Loaiza",
+      "Mar\u00eda Teresa Daza"
+    ],
+    "year": 2022,
+    "journal": "Cognitive Research Principles and Implications",
+    "doi_or_url": "https://doi.org/10.1186/s41235-022-00428-z",
+    "citation_count": 31,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2164571409",
+    "title": "Drugs of abuse among acute psychiatric and medical admissions: laboratory based identification of prevalence and drug influence",
+    "authors": [
+      "Jon Mordal",
+      "J\u00f8rgen G. Bramness",
+      "Bj\u00f6rn Holm",
+      "J\u00f8rg M\u00f8rland"
+    ],
+    "year": 2008,
+    "journal": "General Hospital Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.genhosppsych.2007.10.006",
+    "citation_count": 30,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1891306440",
+    "title": "Clinical assessment of decision-making capacity in acquired brain injury with personality change",
+    "authors": [
+      "Gareth Owen",
+      "Fabian Freyenhagen",
+      "Wayne Martin",
+      "Anthony S. David"
+    ],
+    "year": 2015,
+    "journal": "Neuropsychological Rehabilitation",
+    "doi_or_url": "https://doi.org/10.1080/09602011.2015.1053948",
+    "citation_count": 29,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1550957198",
+    "title": "Neural Correlates of Successful and Unsuccessful Strategical Mechanisms Involved in Uncertain Decision-Making",
+    "authors": [
+      "Julie Giustiniani",
+      "Damien Gabriel",
+      "Magali Nicolier",
+      "Julie Monnin",
+      "\u00c9mmanuel Haffen"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0130871",
+    "citation_count": 29,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2089102577",
+    "title": "Altered Functional Response to Risky Choice in HIV Infection",
+    "authors": [
+      "Colm G. Connolly",
+      "Amanda Bischoff\u2010Grethe",
+      "Stephan J. Jordan",
+      "Steven Paul Woods",
+      "Ronald J. Ellis",
+      "Martin P. Paulus",
+      "Igor Grant"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0111583",
+    "citation_count": 29,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2622126326",
+    "title": "Exposure to Unsolvable Anagrams Impairs Performance on the Iowa Gambling Task",
+    "authors": [
+      "Katrin Starcke",
+      "Janet D. Agorku",
+      "Matthias Brand"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2017.00114",
+    "citation_count": 29,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2345249425",
+    "title": "Decision-making deficits in patients with chronic schizophrenia: Iowa Gambling Task and Prospect Valence Learning model",
+    "authors": [
+      "Myung\u2010Sun Kim",
+      "Bit-Na Kang",
+      "Jae Young Lim"
+    ],
+    "year": 2016,
+    "journal": "Neuropsychiatric Disease and Treatment",
+    "doi_or_url": "https://doi.org/10.2147/ndt.s103821",
+    "citation_count": 29,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992278104",
+    "title": "Intuitive decision making in complex situations: Somatic markers in an artificial grammar learning task",
+    "authors": [
+      "Dick J. Bierman",
+      "Arnaud Destrebecqz",
+      "Axel Cleeremans"
+    ],
+    "year": 2005,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.5.3.297",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4230546111",
+    "title": "Decision Making under Risk Condition in Patients with Parkinson\u2019s Disease: A Behavioural and fMRI Study",
+    "authors": [
+      "Kirsten Labudda",
+      "Matthias Brand",
+      "Markus Mertens",
+      "Isabelle Ollech",
+      "Hans J. Markowitsch",
+      "Friedrich G. Woermann"
+    ],
+    "year": 2010,
+    "journal": "Behavioural Neurology",
+    "doi_or_url": "https://doi.org/10.1155/2010/743141",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3087367468",
+    "title": "Prefrontal activation in suicide attempters during decision making with emotional feedback",
+    "authors": [
+      "Adri\u00e1n Alacreu\u2010Crespo",
+      "\u00c9milie Oli\u00e9",
+      "Emmanuelle Le Bars",
+      "Fabienne Cyprien",
+      "J\u00e9r\u00e9my Deverdun",
+      "Philippe Courtet"
+    ],
+    "year": 2020,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/s41398-020-00995-z",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1975003736",
+    "title": "Multiple Sclerosis Decreases Explicit Counterfactual Processing and Risk Taking in Decision Making",
+    "authors": [
+      "Samanta Simioni",
+      "Myriam Schluep",
+      "Nad\u00e8ge Bault",
+      "Giorgio Coricelli",
+      "Joerg Kleeberg",
+      "Renaud Du Pasquier",
+      "Markus Gschwind",
+      "Patrik Vuilleumier",
+      "Jean\u2010Marie Annoni"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0050718",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2773830081",
+    "title": "Abstinent Heroin Addicts Tend to Take Risks: ERP and Source Localization",
+    "authors": [
+      "Qinglin Zhao",
+      "Hongqian Li",
+      "Bin Hu",
+      "Haiyan Wu",
+      "Quanying Liu"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2017.00681",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2991271558",
+    "title": "Analysis of Decision-Making Process Using Methods of Quantitative Electroencephalography and Machine Learning Tools",
+    "authors": [
+      "Grzegorz M. W\u00f3jcik",
+      "Jolanta Masiak",
+      "Andrzej Kawiak",
+      "\u0141ukasz Kwa\u015bniewicz",
+      "Piotr Schneider",
+      "Filip Postepski",
+      "Anna Gajos-Bali\u0144ska"
+    ],
+    "year": 2019,
+    "journal": "Frontiers in Neuroinformatics",
+    "doi_or_url": "https://doi.org/10.3389/fninf.2019.00073",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2085536117",
+    "title": "Sensitivity and Bias in Decision-Making under Risk: Evaluating the Perception of Reward, Its Probability and Value",
+    "authors": [
+      "Madeleine Sharp",
+      "Jayalakshmi Viswanathan",
+      "Linda Lanyon",
+      "Jason J.S. Barton"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0033460",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3008933937",
+    "title": "Experimentally induced and real-world anxiety have no demonstrable effect on goal-directed behaviour",
+    "authors": [
+      "Claire M. Gillan",
+      "Matilde M. Vaghi",
+      "Frank H. Hezemans",
+      "Sophia van Ghesel Grothe",
+      "Jessica Dafflon",
+      "Annette Beatrix Br\u00fchl",
+      "George Savulich",
+      "Trevor W. Robbins"
+    ],
+    "year": 2020,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291720000203",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1970603590",
+    "title": "Effects of working memory load on uncertain decision-making: evidence from the Iowa Gambling Task",
+    "authors": [
+      "Ji\u2010fang Cui",
+      "Ya Wang",
+      "Hai\u2010song Shi",
+      "Lu\u2010lu Liu",
+      "Xingjie Chen",
+      "Yinghe Chen"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.00162",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2004562944",
+    "title": "The Role of Risk Aversion in Non-Conscious Decision Making",
+    "authors": [
+      "Shuo Wang",
+      "Ian Krajbich",
+      "Ralph Adolphs",
+      "Naotsugu Tsuchiya"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2012.00050",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2963285505",
+    "title": "Reward sensitivity and electrodermal responses to actions and outcomes in a go/no-go task",
+    "authors": [
+      "Thang M. Le",
+      "Wuyi Wang",
+      "Simon Zhornitsky",
+      "Isha Dhingra",
+      "Sheng Zhang",
+      "Chiang\u2010Shan R. Li"
+    ],
+    "year": 2019,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0219147",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1976238938",
+    "title": "Bipolar disorder and neurophysiologic mechanisms",
+    "authors": [
+      "Simon M. McCrea"
+    ],
+    "year": 2008,
+    "journal": "Neuropsychiatric Disease and Treatment",
+    "doi_or_url": "https://doi.org/10.2147/ndt.s4329",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2276987795",
+    "title": "Trait-related decision making impairment in obsessive-compulsive disorder: evidence from decision making under ambiguity but not decision making under risk",
+    "authors": [
+      "Long Zhang",
+      "Yi Dong",
+      "Yifu Ji",
+      "Rui Tao",
+      "Xuequan Chen",
+      "Jianguo Ye",
+      "Lei Zhang",
+      "Fengqiong Yu",
+      "Chunyan Zhu",
+      "Kai Wang"
+    ],
+    "year": 2015,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/srep17312",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2751248257",
+    "title": "Impulsivity influences betting under stress in laboratory gambling",
+    "authors": [
+      "Natale Canale",
+      "Enrico Rubaltelli",
+      "Alessio Vieno",
+      "Andrea Pittarello",
+      "Jo\u00ebl Billieux"
+    ],
+    "year": 2017,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-017-10745-9",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2988411889",
+    "title": "Altered response to risky decisions and reward in patients with obsessive\u2013compulsive disorder",
+    "authors": [
+      "Pedro Silva Moreira",
+      "Julian Macoveanu",
+      "Paulo Marques",
+      "Ana Coelho",
+      "Ricardo Magalh\u00e3es",
+      "Hartwig R. Siebner",
+      "Jos\u00e9 Miguel Soares",
+      "Nuno Sousa",
+      "Pedro Morgado"
+    ],
+    "year": 2020,
+    "journal": "Journal of Psychiatry and Neuroscience",
+    "doi_or_url": "https://doi.org/10.1503/jpn.180226",
+    "citation_count": 24,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2529908716",
+    "title": "Neuronal Nicotinic Receptors Are Crucial for Tuning of E/I Balance in Prelimbic Cortex and for Decision-Making Processes",
+    "authors": [
+      "Elsa Pittaras",
+      "Alexis Faure",
+      "Xavier Leray",
+      "Elina Moraitopoulou",
+      "Arnaud Cressant",
+      "Arnaud Rabat",
+      "Claire Meunier",
+      "Philippe Fossier",
+      "Sylvie Granon"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2016.00171",
+    "citation_count": 24,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2977226273",
+    "title": "Behavioral and Electrophysiological Arguments in Favor of a Relationship between Impulsivity, Risk-Taking, and Success on the Iowa Gambling Task",
+    "authors": [
+      "Julie Giustiniani",
+      "Coralie Joucla",
+      "Djamila Bennabi",
+      "Magali Nicolier",
+      "Thibault Chabin",
+      "Caroline Masse",
+      "Michel Beno\u00eet",
+      "Pierre Vandel",
+      "\u00c9mmanuel Haffen",
+      "Damien Gabriel"
+    ],
+    "year": 2019,
+    "journal": "Brain Sciences",
+    "doi_or_url": "https://doi.org/10.3390/brainsci9100248",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2291251054",
+    "title": "Psychophysiological arousal and inter\u2010 and intraindividual differences in risk\u2010sensitive decision making",
+    "authors": [
+      "Bettina Studer",
+      "Benjamin Scheibehenne",
+      "Luke Clark"
+    ],
+    "year": 2016,
+    "journal": "Psychophysiology",
+    "doi_or_url": "https://doi.org/10.1111/psyp.12627",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2763881908",
+    "title": "Meta-Analytic Evidence for a Reversal Learning Effect on the Iowa Gambling Task in Older Adults",
+    "authors": [
+      "Rita Pasion",
+      "Ana R. Gon\u00e7alves",
+      "Carina Fernandes",
+      "Fernando Ferreira\u2010Santos",
+      "Fernando Barbosa",
+      "Jo\u00e3o Marques Teixeira"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2017.01785",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2555705365",
+    "title": "To Fear Is to Gain? The Role of Fear Recognition in Risky Decision Making in TBI Patients and Healthy Controls",
+    "authors": [
+      "Annemarie C. Visser-Keizer",
+      "Herma J. Westerhof-Evers",
+      "Marleen J. J. Gerritsen",
+      "Joukje van der Naalt",
+      "Jacoba M. Spikman"
+    ],
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0166995",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2128969640",
+    "title": "Emerging perspectives in social neuroscience and neuroeconomics of aging",
+    "authors": [
+      "Lisbeth Nielsen",
+      "Mara Mather"
+    ],
+    "year": 2011,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsr019",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2209809629",
+    "title": "Cognition, Emotion and Behavior in Children with Tourette\u2019s Syndrome and Children with ADHD-Combined Subtype\u2014A Two-Year Follow-Up Study",
+    "authors": [
+      "Kjell Tore Hovik",
+      "Kerstin Jessica Plessen",
+      "Andrea E. Cavanna",
+      "Erik Winther Skogli",
+      "P. Andersen",
+      "Merete Glenne \u00d8ie"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0144874",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2437480259",
+    "title": "Sex-Differences, Handedness, and Lateralization in the Iowa Gambling Task",
+    "authors": [
+      "Varsha Singh"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2016.00708",
+    "citation_count": 21,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]
