@@ -1,4 +1,19 @@
-# CHANGELOG
+﻿# CHANGELOG
+
+## [v0.1.2-dev] - 2026-02-19
+
+### Changed
+- Rebuilt `T000030` from MID-style cue/target scaffold into a true Iowa Gambling Task with free deck choice each trial.
+- Replaced adaptive hit/miss controller with deck-outcome controller using deck-specific gain/loss schedules and cumulative score updates.
+- Rewrote trial runtime to `fixation -> decision -> feedback -> iti` with deck-specific response triggers and timeout handling.
+- Replaced all config files with clean UTF-8 Chinese participant-facing stimuli and explicit four-deck card layout.
+- Reworked sampler responder to multi-key deck-choice sampling (`A/B/C/D`) with configurable timeout rate.
+- Rebuilt evidence artifacts (`task_logic_audit.md`, `stimulus_mapping.md`, `parameter_mapping.md`, `references.*`, `selected_papers.json`) to literature-first IGT logic.
+- Synced metadata (`README.md`, `taskbeacon.yaml`) to repaired implementation.
+
+### Fixed
+- Removed placeholder/MID participant stimuli and deprecated cue/target feedback semantics.
+- Removed mojibake/corrupted Chinese strings from task configs.
 
 ## [v0.1.1-dev] - 2026-02-19
 
@@ -7,7 +22,6 @@
 - Replaced corrupted `references/task_logic_audit.md` with a full state-machine audit.
 - Updated `references/stimulus_mapping.md` to concrete implemented stimulus IDs per condition.
 - Synced metadata (`README.md`, `taskbeacon.yaml`) with current configuration and evidence.
-
 
 All notable development changes for `T000030-iowa-gambling` are documented here.
 

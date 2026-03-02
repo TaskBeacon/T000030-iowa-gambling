@@ -1,11 +1,11 @@
-[
+﻿[
   {
     "id": "W2035258287",
     "title": "The Iowa Gambling Task in fMRI images",
     "authors": [
       "Xiangrui Li",
-      "Zhong‐Lin Lu",
-      "Arnaud D’Argembeau",
+      "Zhong-Lin Lu",
+      "Arnaud D'Argembeau",
       "Marie Ng",
       "Antoine Bechara"
     ],
@@ -29,34 +29,13 @@
       "Ching-Hung Lin",
       "Yao-Chu Chiu",
       "Po-Lei Lee",
-      "Jen‐Chuen Hsieh"
+      "Jen-Chuen Hsieh"
     ],
     "year": 2007,
     "journal": "Behavioral and Brain Functions",
     "doi_or_url": "https://doi.org/10.1186/1744-9081-3-16",
     "citation_count": 192,
     "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2088416641",
-    "title": "Serotonergic and Dopaminergic Modulation of Gambling Behavior as Assessed Using a Novel Rat Gambling Task",
-    "authors": [
-      "Fiona D. Zeeb",
-      "Trevor W. Robbins",
-      "Catharine A. Winstanley"
-    ],
-    "year": 2009,
-    "journal": "Neuropsychopharmacology",
-    "doi_or_url": "https://doi.org/10.1038/npp.2009.62",
-    "citation_count": 383,
-    "is_high_impact": true,
     "open_access": true,
     "used_for": [
       "task_workflow",
@@ -107,18 +86,16 @@
     "notes": ""
   },
   {
-    "id": "W1521822513",
-    "title": "THE POPULATION PREVALENCE OF PROBLEM GAMBLING: Methodological Influences, Standardized Rates, Jurisdictional Differences, and Worldwide Trends",
+    "id": "W2155857408",
+    "title": "Different Underlying Impairments in Decision-making Following Ventromedial and Dorsolateral Frontal Lobe Damage in Humans",
     "authors": [
-      "Robert J. Williams",
-      "Rachel A. Volberg",
-      "Rhys Stevens"
+      "Lesley K. Fellows"
     ],
-    "year": 2012,
-    "journal": "Open ULeth Scholarship (OPUS) (University of Lethbridge)",
-    "doi_or_url": "https://openalex.org/W1521822513",
-    "citation_count": 400,
-    "is_high_impact": false,
+    "year": 2004,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhh108",
+    "citation_count": 616,
+    "is_high_impact": true,
     "open_access": true,
     "used_for": [
       "task_workflow",

@@ -1,5 +1,5 @@
-task_id: T000030
-generated_at: '2026-02-18T16:59:51Z'
+﻿task_id: T000030
+generated_at: '2026-02-19T12:45:00Z'
 selection_policy: openalex_filter_plus_manual_curation
 citation_threshold: 100
 papers:
@@ -7,8 +7,8 @@ papers:
   title: The Iowa Gambling Task in fMRI images
   authors:
   - Xiangrui Li
-  - Zhong‐Lin Lu
-  - Arnaud D’Argembeau
+  - Zhong-Lin Lu
+  - Arnaud D'Argembeau
   - Marie Ng
   - Antoine Bechara
   year: 2009
@@ -19,16 +19,17 @@ papers:
   open_access: true
   used_for:
   - task_workflow
+  - deck_choice_logic
   - timing_parameters
   parameter_bindings: {}
-  notes: ''
+  notes: Human IGT implementation and trial-wise decision/outcome structure.
 - id: W2108913208
   title: Is deck B a disadvantageous deck in the Iowa Gambling Task?
   authors:
   - Ching-Hung Lin
   - Yao-Chu Chiu
   - Po-Lei Lee
-  - Jen‐Chuen Hsieh
+  - Jen-Chuen Hsieh
   year: 2007
   journal: Behavioral and Brain Functions
   doi_or_url: https://doi.org/10.1186/1744-9081-3-16
@@ -36,28 +37,10 @@ papers:
   is_high_impact: false
   open_access: true
   used_for:
-  - task_workflow
-  - timing_parameters
+  - deck_contingency_design
+  - analysis_notes
   parameter_bindings: {}
-  notes: ''
-- id: W2088416641
-  title: Serotonergic and Dopaminergic Modulation of Gambling Behavior as Assessed
-    Using a Novel Rat Gambling Task
-  authors:
-  - Fiona D. Zeeb
-  - Trevor W. Robbins
-  - Catharine A. Winstanley
-  year: 2009
-  journal: Neuropsychopharmacology
-  doi_or_url: https://doi.org/10.1038/npp.2009.62
-  citation_count: 383
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
+  notes: Supports explicit handling of deck-B loss-frequency profile.
 - id: W2144547056
   title: Sex-related Differences in a Gambling Task and Its Neurological Correlates
   authors:
@@ -70,12 +53,11 @@ papers:
   open_access: true
   used_for:
   - task_workflow
-  - timing_parameters
+  - trigger_planning
   parameter_bindings: {}
-  notes: ''
+  notes: Provides high-impact neuroimaging context for IGT behavioral workflow.
 - id: W2123110589
-  title: 'Neurocognitive functions in pathological gambling: a comparison with alcohol
-    dependence, Tourette syndrome and normal controls'
+  title: Neurocognitive functions in pathological gambling: a comparison with alcohol dependence, Tourette syndrome and normal controls
   authors:
   - Anna E. Goudriaan
   - Jaap Oosterlaan
@@ -89,24 +71,21 @@ papers:
   open_access: true
   used_for:
   - task_workflow
-  - timing_parameters
+  - response_metrics
   parameter_bindings: {}
-  notes: ''
-- id: W1521822513
-  title: 'THE POPULATION PREVALENCE OF PROBLEM GAMBLING: Methodological Influences,
-    Standardized Rates, Jurisdictional Differences, and Worldwide Trends'
+  notes: Supports behavioral endpoints (choice patterns, RT, group comparisons) in IGT settings.
+- id: W2155857408
+  title: Different Underlying Impairments in Decision-making Following Ventromedial and Dorsolateral Frontal Lobe Damage in Humans
   authors:
-  - Robert J. Williams
-  - Rachel A. Volberg
-  - Rhys Stevens
-  year: 2012
-  journal: Open ULeth Scholarship (OPUS) (University of Lethbridge)
-  doi_or_url: https://openalex.org/W1521822513
-  citation_count: 400
-  is_high_impact: false
+  - Lesley K. Fellows
+  year: 2004
+  journal: Cerebral Cortex
+  doi_or_url: https://doi.org/10.1093/cercor/bhh108
+  citation_count: 616
+  is_high_impact: true
   open_access: true
   used_for:
-  - task_workflow
-  - timing_parameters
+  - decision_outcome_interpretation
+  - trigger_planning
   parameter_bindings: {}
-  notes: ''
+  notes: Supports decision-outcome interpretation relevant to prefrontal decision systems.

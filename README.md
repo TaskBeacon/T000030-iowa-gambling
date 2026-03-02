@@ -1,13 +1,13 @@
-# Iowa Gambling Task
+﻿# Iowa Gambling Task
 
 ![Maturity: draft](https://img.shields.io/badge/Maturity-draft-64748b?style=flat-square&labelColor=111827)
 
 | Field | Value |
 |---|---|
 | Name | Iowa Gambling Task |
-| Version | v0.1.1-dev |
+| Version | v0.1.2-dev |
 | URL / Repository | https://github.com/TaskBeacon/T000030-iowa-gambling |
-| Short Description | Affective decision making under uncertain reward/punishment contingencies. |
+| Short Description | Four-deck decision task probing long-term reward/loss learning under uncertainty. |
 | Created By | TaskBeacon |
 | Date Updated | 2026-02-19 |
 | PsyFlow Version | 0.1.9 |
@@ -18,9 +18,9 @@
 
 ## 1. Task Overview
 
-This task implements an Iowa Gambling-style paradigm with four deck conditions: `deck_a`, `deck_b`, `deck_c`, and `deck_d`. Trials include cueing, anticipation, target response capture, and feedback.
+This task implements the Iowa Gambling Task (IGT) with four visible decks (`A/B/C/D`). On each trial, participants choose one deck and immediately receive gain/loss feedback. Long-term deck contingencies are configured so that `A/B` are disadvantageous and `C/D` are advantageous across repeated choices.
 
-The implementation supports standardized execution across human, QA, scripted sim, and sampler sim profiles, with condition-specific trigger mappings and trial logging.
+The implementation records trial-level choice, gain/loss values, net outcome, cumulative score, timeout status, and response latency.
 
 ## 2. Task Flow
 
@@ -28,35 +28,36 @@ The implementation supports standardized execution across human, QA, scripted si
 
 | Step | Description |
 |---|---|
-| 1. Load condition stream | Block-level condition sequence is prepared from configured deck labels. |
-| 2. Execute trial loop | `run_trial(...)` presents cue, anticipation, target, and feedback stages. |
-| 3. Block summary | Accuracy and score summary is displayed after each block. |
-| 4. Task completion | End-of-task cumulative score is displayed. |
+| 1. Block init | Controller resets block metrics and keeps cumulative score continuity. |
+| 2. Trial loop | Each trial presents all four decks for free choice and logs outcome updates. |
+| 3. Block summary | Show current total score, net change, advantageous choice rate, RT, and deck counts. |
+| 4. Final summary | Show full-session totals and deck-selection profile. |
 
 ### Trial-Level Flow
 
 | Step | Description |
 |---|---|
-| Cue | Deck-specific cue is shown. |
-| Anticipation | Fixation period with response monitoring. |
-| Target | Deck-specific target appears with response capture. |
-| Pre-feedback fixation | Brief interstitial fixation stage. |
-| Feedback | Hit/miss feedback and score delta are shown. |
+| `fixation` | Jittered fixation before deck decision. |
+| `decision` | Show four deck cards and capture key response (`D/F/J/K`). |
+| `feedback` | Show chosen deck, gain, loss, net outcome, and updated total (or timeout message). |
+| `iti` | Jittered inter-trial fixation before next choice. |
 
 ### Controller Logic
 
 | Component | Description |
 |---|---|
-| Adaptive target timing | Controller adapts target duration toward configured accuracy. |
-| Deck history tracking | Outcomes are tracked separately per deck condition. |
-| Score update | Trial hit/miss state updates score delta and running total. |
+| Deck schedules | Each deck has fixed gain and repeating loss sequence (`deck_profiles`). |
+| Score update | Per trial: `net = gain - loss`; cumulative total is updated online. |
+| Metrics | Tracks timeout rate, advantageous choice rate (`C/D`), deck counts, and RT summaries. |
 
 ### Runtime Context Phases
 
 | Phase Label | Meaning |
 |---|---|
-| `anticipation` | Pre-target monitoring interval. |
-| `target` | Active target response window. |
+| `fixation` | Pre-choice baseline display. |
+| `decision` | Active free-choice window among four decks. |
+| `feedback` | Outcome display after choice (or timeout). |
+| `iti` | Inter-trial reset interval. |
 
 ## 3. Configuration Summary
 
@@ -73,34 +74,57 @@ The implementation supports standardized execution across human, QA, scripted si
 | `size` | `[1280, 720]` |
 | `units` | `pix` |
 | `screen` | `0` |
-| `bg_color` | `gray` |
+| `bg_color` | `[0.07, 0.1, 0.14]` |
 | `fullscreen` | `false` |
 | `monitor_width_cm` | `35.5` |
 | `monitor_distance_cm` | `60` |
 
 ### c. Stimuli
 
-| Name | Type | Description |
-|---|---|---|
-| `deck_*_cue` | text | Deck cue prompts for A/B/C/D conditions. |
-| `deck_*_target` | text | Deck target prompts for response capture. |
-| `deck_*_hit_feedback`, `deck_*_miss_feedback` | text | Deck-specific feedback text. |
-| `fixation`, `block_break`, `good_bye` | text | Shared fixation and summary screens. |
+| Stimulus Group | Description |
+|---|---|
+| `deck_*_rect`, `deck_*_label` | Four deck cards with fixed spatial layout and key labels. |
+| `decision_title`, `balance_text`, `key_hint` | Decision header and current score display. |
+| `feedback_outcome`, `feedback_timeout` | Outcome-specific feedback panels. |
+| `instruction_text`, `block_break`, `good_bye`, `fixation` | Shared envelope and transition screens. |
 
 ### d. Timing
 
-| Phase | Duration |
+| Stage | Duration |
 |---|---|
-| cue | 0.5 s |
-| anticipation | 1.0 s |
-| prefeedback | 0.4 s |
-| feedback | 0.8 s |
-| target | adaptive via controller (`0.08`-`0.40` s bounds) |
+| fixation | jittered (`fixation_duration`) |
+| decision | fixed deadline (`decision_deadline`) |
+| feedback | fixed (`feedback_duration`) |
+| iti | jittered (`iti_duration`) |
+
+### e. Triggers
+
+| Trigger | Code |
+|---|---:|
+| `exp_onset` | 1 |
+| `exp_end` | 2 |
+| `block_onset` | 10 |
+| `block_end` | 11 |
+| `fixation_onset` | 20 |
+| `decision_onset` | 30 |
+| `choice_deck_a` | 31 |
+| `choice_deck_b` | 32 |
+| `choice_deck_c` | 33 |
+| `choice_deck_d` | 34 |
+| `choice_timeout` | 35 |
+| `feedback_onset` | 40 |
+| `iti_onset` | 50 |
+
+### f. Adaptive Controller
+
+| Parameter Group | Description |
+|---|---|
+| `deck_profiles` | Deck-specific gain and loss schedules (`A/B` disadvantageous, `C/D` advantageous). |
+| `initial_money` | Initial cumulative score baseline. |
+| `enable_logging` | Emits per-trial controller logs for QA/debug analysis. |
 
 ## 4. Methods (for academic publication)
 
-Participants completed repeated deck-selection trials under uncertain outcome contingencies. Each trial provided a deck cue, response window, and immediate feedback to support analysis of preference patterns and performance over time.
+Participants completed repeated uncertain-choice trials in a four-deck Iowa Gambling paradigm. On each trial they selected one deck using a fixed four-key mapping and received immediate gain/loss outcome feedback. Deck contingencies were configured to dissociate short-term reward magnitude from long-term expected value, enabling quantification of advantageous-deck preference over time.
 
-Task difficulty was managed with adaptive target duration limits, and trial-level logs captured condition identity, response status, timing, and score changes.
-
-Trigger events were emitted for cue, anticipation, target, response, and feedback stages to support synchronized behavioral and neurophysiological acquisition workflows.
+The task records trial-level deck choice, gain/loss/net values, cumulative score, reaction time, and timeout events with trigger-aligned phase labels (`fixation`, `decision`, `feedback`, `iti`) for reproducible behavioral and multimodal synchronization workflows.

@@ -1,23 +1,21 @@
-subinfo_fields:
-- name: subject_id
-  type: int
-  constraints:
-    min: 101
-    max: 999
-    digits: 3
+﻿subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
 subinfo_mapping:
-  subject_id: 被试编号（3位）
+  subject_id: 受试者编号（3位）
   Participant Information: 被试信息
   registration_failed: 注册失败
   registration_successful: 注册成功
-  invalid_input: '{field} 输入无效'
+  invalid_input: "{field} 输入无效"
 window:
-  size:
-  - 1280
-  - 720
+  size: [1280, 720]
   units: pix
   screen: 0
-  bg_color: gray
+  bg_color: black
   fullscreen: false
   monitor_width_cm: 35.5
   monitor_distance_cm: 60
@@ -25,186 +23,205 @@ task:
   task_name: iowa_gambling
   save_path: ./outputs/sim
   total_blocks: 1
-  total_trials: 12
-  trial_per_block: 12
+  total_trials: 20
+  trial_per_block: 20
   conditions:
-  - deck_a
-  - deck_b
-  - deck_c
-  - deck_d
+    - free_choice
   key_list:
-  - d
-  - f
-  - j
-  - k
-  - space
+    - d
+    - f
+    - j
+    - k
+    - space
+  deck_a_key: d
+  deck_b_key: f
+  deck_c_key: j
+  deck_d_key: k
   seed_mode: same_across_sub
   delta: 1
   language: Chinese
   voice_name: zh-CN-YunyangNeural
   voice_enabled: false
 timing:
-  cue_duration: 0.5
-  anticipation_duration: 1.0
-  prefeedback_duration: 0.4
-  feedback_duration: 0.8
+  fixation_duration: [0.12, 0.18]
+  decision_deadline: 0.7
+  feedback_duration: 0.12
+  iti_duration: [0.08, 0.12]
 stimuli:
-  fixation:
-    type: text
-    text: +
-    color: white
-    height: 48
-    font: SimHei
   instruction_text:
     type: text
-    text: '爱荷华博弈任务
+    text: |
+      爱荷华赌博任务（脚本模拟）
 
-
-      请从四个牌堆中选择一个。
-
-      D=牌堆A，F=牌堆B，J=牌堆C，K=牌堆D。
-
-
-      按空格键开始。'
+      按 D/F/J/K 选择牌堆 A/B/C/D。
+      按空格键开始。
     color: white
-    height: 28
+    height: 30
+    wrapWidth: 1040
+    pos: [0, 120]
+    font: SimHei
+  fixation:
+    type: text
+    text: "+"
+    color: white
+    height: 48
+    pos: [0, 0]
+    font: SimHei
+  decision_title:
+    type: text
+    text: "请选择一副牌"
+    color: [0.95, 0.92, 0.55]
+    height: 38
+    pos: [0, 300]
+    font: SimHei
+  balance_text:
+    type: text
+    text: "当前总分：{current_total} 元"
+    color: [0.82, 0.95, 0.88]
+    height: 30
+    pos: [0, 245]
+    font: SimHei
+  deck_a_rect:
+    type: rect
+    width: 220
+    height: 280
+    pos: [-420, 10]
+    fillColor: [0.18, 0.36, 0.56]
+    lineColor: [0.96, 0.96, 0.98]
+    lineWidth: 3
+  deck_b_rect:
+    type: rect
+    width: 220
+    height: 280
+    pos: [-140, 10]
+    fillColor: [0.53, 0.24, 0.39]
+    lineColor: [0.96, 0.96, 0.98]
+    lineWidth: 3
+  deck_c_rect:
+    type: rect
+    width: 220
+    height: 280
+    pos: [140, 10]
+    fillColor: [0.2, 0.46, 0.36]
+    lineColor: [0.96, 0.96, 0.98]
+    lineWidth: 3
+  deck_d_rect:
+    type: rect
+    width: 220
+    height: 280
+    pos: [420, 10]
+    fillColor: [0.58, 0.42, 0.18]
+    lineColor: [0.96, 0.96, 0.98]
+    lineWidth: 3
+  deck_a_label:
+    type: text
+    text: |
+      牌堆A
+      按 {deck_a_key}
+    color: white
+    height: 32
+    pos: [-420, 20]
+    wrapWidth: 200
+    font: SimHei
+  deck_b_label:
+    type: text
+    text: |
+      牌堆B
+      按 {deck_b_key}
+    color: white
+    height: 32
+    pos: [-140, 20]
+    wrapWidth: 200
+    font: SimHei
+  deck_c_label:
+    type: text
+    text: |
+      牌堆C
+      按 {deck_c_key}
+    color: white
+    height: 32
+    pos: [140, 20]
+    wrapWidth: 200
+    font: SimHei
+  deck_d_label:
+    type: text
+    text: |
+      牌堆D
+      按 {deck_d_key}
+    color: white
+    height: 32
+    pos: [420, 20]
+    wrapWidth: 200
+    font: SimHei
+  key_hint:
+    type: text
+    text: "提示：部分牌堆短期收益高但长期可能亏损"
+    color: white
+    height: 24
+    pos: [0, -260]
     wrapWidth: 980
     font: SimHei
-  deck_a_cue:
+  feedback_outcome:
     type: text
-    text: 线索：牌堆A
+    text: |
+      你选择了牌堆 {deck_label}
+      本轮获得：+{gain} 元
+      本轮损失：-{loss} 元
+      本轮净变化：{net:+d} 元
+      当前总分：{balance_after} 元
     color: white
-    height: 44
-    wrapWidth: 900
+    height: 30
+    wrapWidth: 980
+    pos: [0, 40]
     font: SimHei
-  deck_b_cue:
+  feedback_timeout:
     type: text
-    text: 线索：牌堆B
-    color: white
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  deck_c_cue:
-    type: text
-    text: 线索：牌堆C
-    color: white
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  deck_d_cue:
-    type: text
-    text: 线索：牌堆D
-    color: white
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  deck_a_target:
-    type: text
-    text: '请选择牌堆
-
-      D=A   F=B   J=C   K=D'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  deck_b_target:
-    type: text
-    text: '请选择牌堆
-
-      D=A   F=B   J=C   K=D'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  deck_c_target:
-    type: text
-    text: '请选择牌堆
-
-      D=A   F=B   J=C   K=D'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  deck_d_target:
-    type: text
-    text: '请选择牌堆
-
-      D=A   F=B   J=C   K=D'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  deck_a_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  deck_a_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  deck_b_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  deck_b_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  deck_c_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  deck_c_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  deck_d_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  deck_d_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
+    text: |
+      超时：本轮未抽牌
+      当前总分保持：{balance_after} 元
+    color: [1.0, 0.45, 0.45]
+    height: 34
+    wrapWidth: 980
+    pos: [0, 20]
     font: SimHei
   block_break:
     type: text
-    text: '区块 {block_num}/{total_blocks}
+    text: |
+      第 {block_num}/{total_blocks} 组完成
 
-      记录率：{accuracy:.2%}
+      当前总分：{current_total} 元
+      本组净变化：{block_net:+d} 元
+      优势牌（C+D）选择率：{adv_rate:.1%}
+      平均反应时：{mean_rt_ms:.0f} ms
+      超时次数：{timeout_count}
 
-      当前分数：{total_score}
+      A/B/C/D 选择数：{deck_a_count}/{deck_b_count}/{deck_c_count}/{deck_d_count}
 
-
-      按空格键继续'
+      按空格键继续。
     color: white
-    height: 24
-    wrapWidth: 900
+    height: 26
+    wrapWidth: 1040
+    pos: [0, 0]
     font: SimHei
   good_bye:
     type: text
-    text: '任务结束，最终分数：{total_score}
+    text: |
+      脚本模拟结束
 
+      总试次：{total_trials}
+      最终总分：{final_total} 元
+      全程净变化：{net_total:+d} 元
+      优势牌（C+D）选择率：{adv_rate:.1%}
+      平均反应时：{mean_rt_ms:.0f} ms
+      超时次数：{timeout_count}
 
-      按空格键退出'
+      A/B/C/D 选择数：{deck_a_count}/{deck_b_count}/{deck_c_count}/{deck_d_count}
+
+      按空格键退出。
     color: white
-    height: 28
-    wrapWidth: 900
+    height: 26
+    wrapWidth: 1040
+    pos: [0, 0]
     font: SimHei
 triggers:
   map:
@@ -212,34 +229,15 @@ triggers:
     exp_end: 2
     block_onset: 10
     block_end: 11
-    deck_a_cue_onset: 20
-    deck_b_cue_onset: 21
-    deck_c_cue_onset: 22
-    deck_d_cue_onset: 23
-    deck_a_anti_onset: 30
-    deck_b_anti_onset: 31
-    deck_c_anti_onset: 32
-    deck_d_anti_onset: 33
-    deck_a_target_onset: 40
-    deck_b_target_onset: 41
-    deck_c_target_onset: 42
-    deck_d_target_onset: 43
-    deck_a_key_press: 50
-    deck_b_key_press: 51
-    deck_c_key_press: 52
-    deck_d_key_press: 53
-    deck_a_no_response: 60
-    deck_b_no_response: 61
-    deck_c_no_response: 62
-    deck_d_no_response: 63
-    deck_a_hit_fb_onset: 70
-    deck_a_miss_fb_onset: 71
-    deck_b_hit_fb_onset: 72
-    deck_b_miss_fb_onset: 73
-    deck_c_hit_fb_onset: 74
-    deck_c_miss_fb_onset: 75
-    deck_d_hit_fb_onset: 76
-    deck_d_miss_fb_onset: 77
+    fixation_onset: 20
+    decision_onset: 30
+    choice_deck_a: 31
+    choice_deck_b: 32
+    choice_deck_c: 33
+    choice_deck_d: 34
+    choice_timeout: 35
+    feedback_onset: 40
+    iti_onset: 50
   driver:
     type: serial_url
     url: loop://
@@ -249,13 +247,26 @@ triggers:
   policy:
     strict: false
 controller:
-  initial_duration: 0.25
-  min_duration: 0.08
-  max_duration: 0.4
-  step: 0.02
-  target_accuracy: 0.66
-  condition_specific: true
+  fixation_duration: [0.12, 0.18]
+  decision_deadline: 0.7
+  feedback_duration: 0.12
+  iti_duration: [0.08, 0.12]
+  initial_money: 2000
+  random_seed: 17
   enable_logging: true
+  deck_profiles:
+    deck_a:
+      gain: 100
+      loss_sequence: [0, 150, 0, 300, 0, 200, 0, 250, 0, 350]
+    deck_b:
+      gain: 100
+      loss_sequence: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1250]
+    deck_c:
+      gain: 50
+      loss_sequence: [0, 25, 0, 50, 0, 25, 0, 75, 0, 75]
+    deck_d:
+      gain: 50
+      loss_sequence: [0, 0, 0, 0, 0, 0, 0, 0, 0, 250]
 sim:
   output_dir: outputs/sim
   seed: 0

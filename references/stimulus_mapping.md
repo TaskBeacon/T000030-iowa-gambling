@@ -1,14 +1,12 @@
-# Stimulus Mapping
+﻿# Stimulus Mapping
 
 Task: `Iowa Gambling Task`
 
 | Condition | Implemented Stimulus IDs | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Notes |
 |---|---|---|---|---|---|
-| `deck_a` | `deck_a_cue`, `deck_a_target`, `deck_a_hit_feedback`, `deck_a_miss_feedback`, `fixation` | `W2035258287` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `deck_b` | `deck_b_cue`, `deck_b_target`, `deck_b_hit_feedback`, `deck_b_miss_feedback`, `fixation` | `W2035258287` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `deck_c` | `deck_c_cue`, `deck_c_target`, `deck_c_hit_feedback`, `deck_c_miss_feedback`, `fixation` | `W2035258287` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `deck_d` | `deck_d_cue`, `deck_d_target`, `deck_d_hit_feedback`, `deck_d_miss_feedback`, `fixation` | `W2035258287` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `fixation` | `W2035258287` | Shared instruction, transition, and fixation assets support the common task envelope across all conditions. | `psychopy_builtin` | Shared assets are condition-agnostic and used in every run mode. |
+| `free_choice` | `decision_title`, `balance_text`, `deck_a_rect`, `deck_b_rect`, `deck_c_rect`, `deck_d_rect`, `deck_a_label`, `deck_b_label`, `deck_c_label`, `deck_d_label`, `key_hint`, `feedback_outcome`, `feedback_timeout`, `fixation` | `W2035258287` | IGT is implemented as repeated free choices among four decks with trial-wise feedback. | `psychopy_builtin` | Decks are concurrently shown each trial; no pre-cue of a single deck is shown. |
+| `deck_outcome_logic` | `feedback_outcome` (formatted gain/loss/net/total) | `W2108913208` | Deck-specific payoff structure (including deck-B loss-frequency profile) informs outcome schedules. | `psychopy_builtin` | Controller applies deck schedules and feeds formatted outcome text. |
+| `all_conditions` | `instruction_text`, `block_break`, `good_bye` | `W2144547056` | Shared envelope screens support block progression and summary reporting in standard IGT sessions. | `psychopy_builtin` | Text remains Chinese and mode-consistent across human/QA/sim runs. |
 
 Implementation mode legend:
 - `psychopy_builtin`: stimulus rendered via PsychoPy primitives in config.
