@@ -1,5 +1,23 @@
 ﻿# CHANGELOG
 
+## [v0.1.3-dev] - 2026-03-02
+
+### Changed
+- Replaced `src/run_trial.py` MID-template flow with Iowa Gambling native phases (`fixation -> decision -> feedback -> iti`).
+- Implemented deck-choice execution using controller deck schedules (`draw_from_deck`) and explicit timeout no-draw behavior.
+- Added config-first localization field `task.deck_labels` across all runtime profiles and used it for participant-facing feedback deck labels.
+- Rebuilt references artifacts to the new contract format:
+  - `references/references.yaml`
+  - `references/references.md`
+  - `references/parameter_mapping.md`
+  - `references/stimulus_mapping.md`
+  - `references/task_logic_audit.md`
+
+### Fixed
+- Removed leftover MID states (`cue`, `anticipation`, `target`, prefeedback fixation) from IGT trial runtime.
+- Fixed trial ID progression by using controller-driven trial indexing.
+- Restored reference-contract compliance (required headings, required table columns, required audit sections `## 7` and `## 8`).
+
 ## [v0.1.2-dev] - 2026-02-19
 
 ### Changed

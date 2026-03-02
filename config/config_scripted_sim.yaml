@@ -37,6 +37,11 @@ task:
   deck_b_key: f
   deck_c_key: j
   deck_d_key: k
+  deck_labels:
+    deck_a: A
+    deck_b: B
+    deck_c: C
+    deck_d: D
   seed_mode: same_across_sub
   delta: 1
   language: Chinese
