@@ -3,39 +3,9 @@ from __future__ import annotations
 from functools import partial
 from typing import Any
 
-from psyflow import StimUnit, set_trial_context
+from psyflow import StimUnit, next_trial_id, resolve_deadline, set_trial_context
 
 from .utils import ADVANTAGEOUS_DECKS, DECK_A, DECK_B, DECK_C, DECK_D
-
-
-def _deadline_s(value: Any) -> float | None:
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return None
-    return None
-
-
-def _as_duration(controller, value: Any, default_value: float) -> float:
-    if hasattr(controller, "sample_duration"):
-        return float(controller.sample_duration(value, default_value))
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return float(default_value)
-    return float(default_value)
-
-
-def _trial_id(controller) -> int:
-    if hasattr(controller, "next_trial_id"):
-        return int(controller.next_trial_id())
-    return 1
 
 
 def _task_dict(settings, attr_name: str) -> dict[str, Any]:
@@ -92,7 +62,7 @@ def run_trial(
     block_idx=None,
 ):
     """Run one Iowa Gambling Task trial (fixation -> decision -> feedback -> iti)."""
-    trial_id = _trial_id(controller)
+    trial_id = next_trial_id()
     condition_name = str(getattr(controller, "parse_condition", lambda c: c)(condition)).strip().lower()
     block_label = str(block_id) if block_id is not None else "block_0"
     block_index = int(block_idx) if block_idx is not None else 0
@@ -101,10 +71,10 @@ def run_trial(
     deck_labels = _deck_label_map(settings)
     response_keys = [deck_keys[DECK_A], deck_keys[DECK_B], deck_keys[DECK_C], deck_keys[DECK_D]]
 
-    fixation_duration = _as_duration(controller, settings.fixation_duration, 0.4)
-    decision_deadline = float(getattr(settings, "decision_deadline", 3.5))
-    feedback_duration = float(getattr(settings, "feedback_duration", 1.0))
-    iti_duration = _as_duration(controller, settings.iti_duration, 0.45)
+    fixation_duration = float(resolve_deadline(getattr(settings, "fixation_duration", 0.4)) or 0.4)
+    decision_deadline = float(resolve_deadline(getattr(settings, "decision_deadline", 3.5)) or 3.5)
+    feedback_duration = float(resolve_deadline(getattr(settings, "feedback_duration", 1.0)) or 1.0)
+    iti_duration = float(resolve_deadline(getattr(settings, "iti_duration", 0.45)) or 0.45)
 
     balance_before = int(getattr(controller, "total_money", 0))
     trial_data = {
@@ -122,7 +92,7 @@ def run_trial(
         fixation,
         trial_id=trial_id,
         phase="fixation",
-        deadline_s=_deadline_s(fixation_duration),
+        deadline_s=resolve_deadline(fixation_duration),
         valid_keys=[],
         block_id=block_label,
         condition_id=condition_name,
@@ -150,7 +120,7 @@ def run_trial(
         decision,
         trial_id=trial_id,
         phase="decision",
-        deadline_s=_deadline_s(decision_deadline),
+        deadline_s=resolve_deadline(decision_deadline),
         valid_keys=response_keys,
         block_id=block_label,
         condition_id=condition_name,
@@ -169,7 +139,12 @@ def run_trial(
         keys=response_keys,
         duration=decision_deadline,
         onset_trigger=settings.triggers.get("decision_onset"),
-        response_trigger=None,
+        response_trigger={
+            deck_keys[DECK_A]: settings.triggers.get("choice_deck_a"),
+            deck_keys[DECK_B]: settings.triggers.get("choice_deck_b"),
+            deck_keys[DECK_C]: settings.triggers.get("choice_deck_c"),
+            deck_keys[DECK_D]: settings.triggers.get("choice_deck_d"),
+        },
         timeout_trigger=settings.triggers.get("choice_timeout"),
     )
     decision.to_dict(trial_data)
@@ -189,7 +164,6 @@ def run_trial(
     deck_label = ""
 
     if chosen_deck:
-        trigger_runtime.send(settings.triggers.get(_choice_trigger(chosen_deck)))
         draw = controller.draw_from_deck(chosen_deck)
         gain = int(draw["gain"])
         loss = int(draw["loss"])
@@ -219,7 +193,7 @@ def run_trial(
         feedback,
         trial_id=trial_id,
         phase="feedback",
-        deadline_s=_deadline_s(feedback_duration),
+        deadline_s=resolve_deadline(feedback_duration),
         valid_keys=[],
         block_id=block_label,
         condition_id=condition_name,
@@ -245,7 +219,7 @@ def run_trial(
         iti,
         trial_id=trial_id,
         phase="iti",
-        deadline_s=_deadline_s(iti_duration),
+        deadline_s=resolve_deadline(iti_duration),
         valid_keys=[],
         block_id=block_label,
         condition_id=condition_name,

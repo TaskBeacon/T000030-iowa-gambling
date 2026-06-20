@@ -1,6 +1,5 @@
 ﻿from __future__ import annotations
 
-import random
 from typing import Any
 
 from psychopy import logging
@@ -34,7 +33,6 @@ class Controller:
         self.initial_money = int(initial_money)
         self.enable_logging = bool(enable_logging)
 
-        self.rng = random.Random(random_seed)
         self.deck_profiles = self._normalize_profiles(deck_profiles)
 
         self.total_money = int(self.initial_money)
@@ -146,23 +144,6 @@ class Controller:
         self.block_idx = int(block_idx)
         self.trial_count_block = 0
         self.block_bucket = self._new_bucket()
-
-    def next_trial_id(self) -> int:
-        return int(self.trial_count_total) + 1
-
-    def sample_duration(self, value: Any, default: float) -> float:
-        if isinstance(value, (int, float)):
-            return max(0.0, float(value))
-        if isinstance(value, (list, tuple)) and len(value) >= 2:
-            try:
-                low = float(value[0])
-                high = float(value[1])
-            except Exception:
-                return max(0.0, float(default))
-            if high < low:
-                low, high = high, low
-            return max(0.0, float(self.rng.uniform(low, high)))
-        return max(0.0, float(default))
 
     def draw_from_deck(self, deck: str) -> dict[str, Any]:
         deck_id = str(deck).strip().lower()
