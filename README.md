@@ -24,6 +24,8 @@ The implementation records trial-level choice, gain/loss values, net outcome, cu
 
 ## 2. Task Flow
 
+![Task Flow](task_flow.png)
+
 ### Block-Level Flow
 
 | Step | Description |
